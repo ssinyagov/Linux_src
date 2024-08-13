@@ -1,3 +1,4 @@
+#! /bin/bash
 #"Site",-  8
 #"Patient",-13 
 #"CPE Name",- 15 
@@ -5,8 +6,7 @@
 #"3.Frequency of Gaviscon intake in a day?",- 31
 #"4.Duration of Gaviscon prescription?"- 33
 
-
-cat QS2.csv| 
+cat < QS2.csv| 
 tail -n +2|
 #					    Site  CPE_Name  Frequence	
 #					      Patient  Dose    Duration
